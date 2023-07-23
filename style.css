@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
+}
+header{ 
+    background:linear-gradient(to right,rgb(244, 43, 83),rgb(245, 31, 74),rgb(246, 47, 47)) ;
+    height: 3rem;
+    padding: 0.3rem;
+    position: sticky;
+    top: 0;
+}
+nav{
+    
+    float: right;
+    
+}
+header>img{
+    height:35px;
+    width: 40px;
+    position: relative;
+    left: 1rem;
+    
+    
+}
+nav>a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 8px black;
+
+    font-size: 25px;
+    margin: 0 2rem;
+  
+}
+nav>a:hover{
+   color: black;
+   text-shadow: 0 0 3px rgb(61, 52, 52);
+}
+
+section{
+    height: 90vh;
+    border:2px solid black;
+    text-align: center;
+    background-image: url('./wallpaperflare.com_wallpaper\ \(3\).jpg');
+    background-position: center;
+    background-size: contain;
+}
+
+section>h1{
+    color: white;
+    padding-top: 3rem;
+}
+footer{
+    text-align: center;
+    background-color: rgb(97, 85, 85);
+    padding: 1rem;
+}
+footer>p{
+    color: white;
+
+
+}
